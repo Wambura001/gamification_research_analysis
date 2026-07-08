@@ -1,6 +1,12 @@
 # gamification_research_analysis
 This research was held in a University in South Korea where students and professors were interviewed in focus groups to address application of gamification in higher education.
 
+### Data Preprocessing & Cleaning Pipeline
+Before applying any analytical models, a strict text-cleaning pipeline was executed to convert raw focus group audio transcripts into structured data and eliminate conversational noise:
+* **Filler Word Filtering:** Stripped out spoken conversational crutches and fillers unique to verbal interviews (e.g., *'okay'*, *'just'*, *'like'*, *'right'*).
+* **Stopword Removal:** Eliminated standard grammatical filler terms (e.g., *'the'*, *'is'*, *'and'*, *'a'*) using standard NLP stopword lists so only high-intent, substantive words remained.
+* **Text Normalization:** Standardized all text to lowercase and removed punctuation to ensure terms (like *"Gamification"* and *"gamification"*) were counted and mapped accurately together.
+
 ## Analytical Methods
 The four methods were selected specifically because they are appropriate for spoken focus group data, which differs from written text. Spoken language is repetitive, colloquial, and emotionally dense — methods suited to formal writing (such as TF-IDF or document-level topic modelling) would not produce reliable results. The selected methods work bottom-up from the actual words spoken.
 
