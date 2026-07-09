@@ -1,5 +1,7 @@
 # gamification_research_analysis
 This research was held in a University in South Korea where students and professors were interviewed in focus groups to address application of gamification in higher education.
+<img width="49%" alt="image" src="https://github.com/user-attachments/assets/2bc7efa6-c1c3-4da0-9c41-3a35077f4ac5" /> <img width="49%" alt="image" src="https://github.com/user-attachments/assets/dc66be8e-1cb5-4f74-8249-e35b11595050" />
+
 
 ### Data Preprocessing & Cleaning Pipeline
 Before applying any analytical models, a strict text-cleaning pipeline was executed to convert raw focus group audio transcripts into structured data and eliminate conversational noise:
